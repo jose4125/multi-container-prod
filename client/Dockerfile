@@ -1,6 +1,6 @@
 FROM node:alpine
 WORKDIR /usr/app
-ENV NODE_ENV=development
+ENV NODE_ENV=production
 ENV PATH /app/node_modules/.bin:$PATH
 COPY package*.json ./
 RUN npm install
